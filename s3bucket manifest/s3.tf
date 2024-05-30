@@ -17,11 +17,8 @@ provider "aws" {
 # Define the S3 bucket resource
 resource "aws_s3_bucket" "my_bucket" {
   bucket = "buddipammukushi" # Change to your unique bucket name
-
-  # Optionally, configure bucket settings
-  acl    = "public-read" # Access control
+}
 
   tags = {
     Name = "my_bucket"
   }
-}
