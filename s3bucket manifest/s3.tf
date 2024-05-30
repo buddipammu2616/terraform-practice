@@ -20,5 +20,5 @@ resource "aws_s3_bucket" "my_bucket" {
 }
 
   tags = {
-    Name = "my_bucket"
+    "Name" = "my_bucket"
   }
