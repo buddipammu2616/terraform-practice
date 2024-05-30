@@ -21,3 +21,10 @@ provider "aws" {
   profile = "default"
   alias = "aws-us-east-1"
 }
+
+#Provider Block for us-west-1
+provider "aws" {
+  region = "us-west-1"
+  profile = "default"
+  alias = "aws-us-west-1"
+}
