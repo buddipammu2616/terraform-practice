@@ -22,6 +22,6 @@ resource "aws_s3_bucket" "my_bucket" {
   acl    = "public-read" # Access control
 
   tags = {
-    Name        = "My bucket"
+    Name = "my_bucket"
   }
 }
