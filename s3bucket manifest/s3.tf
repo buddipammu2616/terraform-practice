@@ -8,7 +8,7 @@ terraform {
          }
   }
 }
-#Resource block for s3 bucket creating
+
 # Define the provider and the region
 provider "aws" {
   region = "us-east-1" # Change to your preferred region
